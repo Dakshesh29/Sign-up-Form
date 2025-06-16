@@ -1,1 +1,2 @@
-# Sign-up-Form
+A clean and responsive Sign Up Form built using just HTML and CSS. No frameworks, no JavaScript – just the basics to get started with web forms.
+
