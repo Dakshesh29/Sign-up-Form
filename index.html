@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up_From</title>
+    <title>Sign-up-Form</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="image-div">
+            <div class="img-container">
+                <img src="./resources/halie-west-25xggax4bSA-unsplash.jpg" alt="helie-west">
+            </div>
+            <div class="img-overlay">
+                <img src="./resources/odin-lined.png" alt="odin-logo">
+                <div class="logo-text">ODIN</div>
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="text-container">
+                <p>This is not a real online Service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span>now</span> to get started.</p>
+                <p>You <span>know</span> you want to.</p>
+            </div>
+            <div class="form">
+                <form action="#" method="post">
+                    <p>Let's do this!</p>
+                    <div class="names">
+                        <label for="f-name">FIRST NAME</label>
+                        <input type="text" name="f-name" id="fname">
+                        <label for="l-name">LAST NAME</label>
+                        <input type="text" name="l-name" id="lname">
+                    </div>
+                    <div class="email-number">
+                        <label for="Email">EMAIL</label>
+                        <input type="email" name="Email" id="Email">
+                        <label for="ph-no">PHONE NUMBER</label>
+                        <input type="number" name="ph-no" id="ph-no">
+                    </div>
+                    <div class="passcode">
+                        <label for="PASSWORD">PASSWORD</label>
+                        <input type="password" name="PASSWORD" id="PASSWORD">
+                        <label for="Confirm-Pass">CONFIRM PASSWORD</label>
+                        <input type="password" name="Confirm-Pass" id="Confirm-Pass">
+                    </div>
+                </form>
+            </div>
+            <div class="bottom">
+                <div class="create-acc-btn">
+                <button type="submit">Create Account</button>
+            </div>
+            <div class="log-in">Already have an Account? <span class="log-in-text">Log in</span></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
